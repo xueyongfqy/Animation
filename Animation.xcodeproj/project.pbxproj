@@ -14,6 +14,10 @@
 		B193F12D1B0CA47D007753C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B193F12C1B0CA47D007753C8 /* Images.xcassets */; };
 		B193F1301B0CA47D007753C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B193F12E1B0CA47D007753C8 /* LaunchScreen.xib */; };
 		B193F13C1B0CA47D007753C8 /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B193F13B1B0CA47D007753C8 /* AnimationTests.swift */; };
+		B193F1461B0CA763007753C8 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B193F1451B0CA763007753C8 /* PositionViewController.swift */; };
+		B193F1481B0CADB4007753C8 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B193F1471B0CADB4007753C8 /* OpacityViewController.swift */; };
+		B193F14A1B0CAF6C007753C8 /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B193F1491B0CAF6C007753C8 /* ScaleViewController.swift */; };
+		B193F14C1B0CB1ED007753C8 /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B193F14B1B0CB1ED007753C8 /* RotationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		B193F1351B0CA47D007753C8 /* AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B193F13A1B0CA47D007753C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B193F13B1B0CA47D007753C8 /* AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTests.swift; sourceTree = "<group>"; };
+		B193F1451B0CA763007753C8 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		B193F1471B0CADB4007753C8 /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
+		B193F1491B0CAF6C007753C8 /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
+		B193F14B1B0CB1ED007753C8 /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,10 @@
 				B193F1231B0CA47D007753C8 /* AppDelegate.swift */,
 				B193F1251B0CA47D007753C8 /* MasterViewController.swift */,
 				B193F1271B0CA47D007753C8 /* DetailViewController.swift */,
+				B193F1451B0CA763007753C8 /* PositionViewController.swift */,
+				B193F1471B0CADB4007753C8 /* OpacityViewController.swift */,
+				B193F1491B0CAF6C007753C8 /* ScaleViewController.swift */,
+				B193F14B1B0CB1ED007753C8 /* RotationViewController.swift */,
 				B193F1291B0CA47D007753C8 /* Main.storyboard */,
 				B193F12C1B0CA47D007753C8 /* Images.xcassets */,
 				B193F12E1B0CA47D007753C8 /* LaunchScreen.xib */,
@@ -215,9 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B193F1481B0CADB4007753C8 /* OpacityViewController.swift in Sources */,
 				B193F1281B0CA47D007753C8 /* DetailViewController.swift in Sources */,
 				B193F1261B0CA47D007753C8 /* MasterViewController.swift in Sources */,
+				B193F14A1B0CAF6C007753C8 /* ScaleViewController.swift in Sources */,
+				B193F14C1B0CB1ED007753C8 /* RotationViewController.swift in Sources */,
 				B193F1241B0CA47D007753C8 /* AppDelegate.swift in Sources */,
+				B193F1461B0CA763007753C8 /* PositionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
